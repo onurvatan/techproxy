@@ -11,9 +11,15 @@ h1, h3 {
     text-rendering: optimizeLegibility;
     margin-bottom: 2.1rem;
 }
-p {
+p,a {
     font-family: "roboto-light", serif;
     font-size: 1.8rem;
     line-height: 1.8;
     color: #595959;
+}
+
+a{
+    font-size: 1.2rem;
+    color:white;
+    text-decoration: none;
 }
