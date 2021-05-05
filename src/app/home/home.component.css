@@ -6,7 +6,6 @@ header {
 }
 h1, h3 {
     font-family: "roboto-black", sans-serif;
-    color: #FFFFFF;
     font-style: normal;
     text-rendering: optimizeLegibility;
     margin-bottom: 2.1rem;
@@ -15,11 +14,9 @@ p,a {
     font-family: "roboto-light", serif;
     font-size: 1.8rem;
     line-height: 1.8;
-    color: #FFFFFF;
 }
 
 a{
     font-size: 1.2rem;
-    color:white;
     text-decoration: none;
 }
