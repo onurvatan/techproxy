@@ -6,8 +6,68 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  
+     <!-- ======================= JQuery libs =========================== -->
+        <!-- jQuery local-->
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <!--Nav-->
+        <script type="text/javascript" src="assets/js/nav/tinynav.js"></script> 
+        <script type="text/javascript" src="assets/js/nav/superfish.js"></script> 
+        <script type="text/javascript" src="assets/js/nav/hoverIntent.js"></script>  
+        <script type="text/javascript" src="assets/js/nav/jquery.sticky.js"></script>                                               
+        <!--Totop-->
+        <script type="text/javascript" src="assets/js/totop/jquery.ui.totop.js" ></script>  
+        <!--Slide Revolution-->
+        <script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.tools.min.js" ></script>      
+        <script type='text/javascript' src='assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>  
+        <!--owl-carousel-->
+        <script type="text/javascript" src="assets/js/carousel/owl.carousel.js"></script>    
+        <!--Ligbox--> 
+        <script type="text/javascript" src="assets/js/fancybox/jquery.fancybox.pack.js"></script>  
+        <!--Gallery Grid--> 
+        <script type="text/javascript" src="assets/js/gallery/modernizr.custom.26633.js"></script>
+        <script type="text/javascript" src="assets/js/gallery/jquery.gridrotator.js"></script>     
+        <!--Minislider Team-->         
+        <script type="text/javascript" src="assets/js/team/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="assets/js/team/jquery.catslider.js"></script> 
+        <!--Filters-->
+        <script type="text/javascript" src="assets/js/filters/jquery.isotope.js" ></script>   
+        <!--Theme Options-->
+        <script type="text/javascript" src="assets/js/theme-options/theme-options.js"></script>
+        <script type="text/javascript" src="assets/js/theme-options/jquery.cookies.js"></script> 
+        <!-- Twitter Feed-->
+        <script type="text/javascript" src="assets/js/twitter/jquery.tweet.js"></script>   
+        <!-- WOW-master-->
+        <script type="text/javascript" src="assets/js/animations/wow.min.js"></script> 
+        <!-- Parallax-->
+        <script type="text/javascript" src="assets/js/parallax/jquery.inview.js"></script>
+        <script type="text/javascript" src="assets/js/parallax/nbw-parallax.js"></script>                           
+        <!-- Bootstrap.js-->
+        <script type="text/javascript" src="assets/js/bootstrap/bootstrap.js"></script>
+        <!--fUNCTIONS-->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        <!-- ======================= End JQuery libs =========================== -->
+        
+        <!--Slider Function-->
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+               jQuery('.tp-banner').revolution(
+                {
+                    delay:15000,
+                    startwidth:1170,
+                    startheight:500,
+                    hideThumbs:10,
+                    fullWidth:"on",
+                    fullScreen:"on",
+                    fullScreenOffsetContainer: ""
+                });
+            });
+        </script>
+        <!--End Slider Function-->
 </head>
 <body>
   <app-root></app-root>
+
 </body>
 </html>
