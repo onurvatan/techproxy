@@ -15,34 +15,34 @@
 .post-date,
 .more-link a,
 .pagination > .active > a{
-	background-color: #0088cc !important;
-	background: #0088cc !important;
+	background-color: #2666CF !important;
+	background: #2666CF !important;
 }
 .promotion_table .head_table{
-	background-color: #0088cc;
+	background-color: #2666CF;
 }
 .section_title{
-	background-color: #0088cc;
-	background: #0088cc url("../../../img/img-theme/bg_index_static.png");
+	background-color: #2666CF;
+	background: #2666CF url("../../../img/img-theme/bg_index_static.png");
 }
 .arrow_results{
 	background: url("arrow_results.png") no-repeat center center;
 }
 .overlay{
-	background: #0088cc url("../../../img/img-theme/more.png") no-repeat center center;;
+	background: #2666CF url("../../../img/img-theme/more.png") no-repeat center center;;
 	background: rgba(0, 136, 204,0.6) url("../../../img/img-theme/more.png") no-repeat center center;
 }
 .opacy_bg_03{
   background: rgba(0, 136, 204,0.6);
 }
 .progress-bar {
-	background-image: -webkit-linear-gradient(top, #0088cc 0%, #0088cc 100%);
-	background-image: -o-linear-gradient(top, #0088cc 0%, #0088cc 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#0088cc), to(#0088cc));
-	background-image: linear-gradient(to bottom, #0088cc 0%, #0088cc 100%);
+	background-image: -webkit-linear-gradient(top, #2666CF 0%, #2666CF 100%);
+	background-image: -o-linear-gradient(top, #2666CF 0%, #2666CF 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2666CF), to(#2666CF));
+	background-image: linear-gradient(to bottom, #2666CF 0%, #2666CF 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff3071a9', GradientType=0);
 	background-repeat: repeat-x;
-	background-color: #0088cc;
+	background-color: #2666CF;
 }
 
 /* Colors ------------------------*/
@@ -73,16 +73,16 @@ footer li i,
 .info-me h2 strong,
 .list i,
 address i{
-	color: #0088cc !important;
+	color: #2666CF !important;
 }
 .index_static h1 span{
-	color: #0088cc;
+	color: #2666CF;
 }
 
 /* Borders Colors ------------------------*/
 .carousel-testimonials .image-testimonials{
-	border: 5px solid #0088cc;
+	border: 5px solid #2666CF;
 }
 .carousel-testimonials .head-testimonials:before{
-	border-top: 20px solid #0088cc;
+	border-top: 20px solid #2666CF;
 }

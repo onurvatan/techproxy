@@ -1,0 +1,131 @@
+<!-- layout-->
+<div id="layout" class="layout-wide">
+	<app-header></app-header>
+
+	<!-- Info title-->
+	<div class="row info_title wow fadeInUp">
+		<div class="vertical_line">
+			<div class="circle_bottom"></div>
+		</div>
+		<div class="info_vertical animated">
+			<h1>We work to raise the level of your software projects with our experienced and dedicated software
+				consultants.</h1>
+		</div>
+		<div class="vertical_line"></div>
+
+		<i class="fa fa-cogs right"></i>
+	</div>
+	<!-- End Info title-->
+
+
+
+	<!-- Info title-->
+	<div class="row info_title wow fadeInUp">
+		<div class="vertical_line">
+			<div class="circle_bottom"></div>
+		</div>
+		<div class="info_vertical animated">
+			<h1>Our <span>Great</span> Process</h1>
+		</div>
+		<div class="vertical_line"></div>
+
+		<i class="fa fa-tablet right"></i>
+	</div>
+	<!-- End Info title-->
+
+	<!-- End content info - Services Section -->
+	<section class="content_info">
+		<!-- Services-->
+		<section class="info_resalt borders">
+			<div class="container wow fadeInUp">
+				<div class="row text-center">
+					<div class="service-process">
+						<!-- Step 1 -->
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<div class="caption-head">
+									<em class="caption-icon fa fa-graduation-cap icon-big"></em>
+									<h2 class="caption-title">Imagine</h2>
+								</div>
+							</div>
+						</div>
+						<!-- End Step 1 -->
+
+						<!-- Step 2 -->
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<div class="caption-head">
+									<em class="caption-icon fa fa-edit icon-big"></em>
+									<h2 class="caption-title">Strategy</h2>
+								</div>
+							</div>
+						</div>
+						<!-- End Step 2 -->
+
+						<!-- Step 3 -->
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<div class="caption-head">
+									<em class="caption-icon fa fa-cog icon-big"></em>
+									<h2 class="caption-title">Build</h2>
+								</div>
+							</div>
+						</div>
+						<!-- End Step 3 -->
+
+						<!-- Step 4 -->
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<div class="caption-head">
+									<em class="caption-icon fa fa-plane icon-big"></em>
+									<h2 class="caption-title">Launch</h2>
+								</div>
+							</div>
+						</div>
+						<!-- End Step 4 -->
+					</div>
+
+					<div class="col-md-12 single_services">
+						<p class="lead">We limit our concurrent projects to ensure your company gets the most care and
+							attention possible.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Services-->
+	</section>
+	<!-- End content info - Services Section -->
+
+	<div class="row info_title wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+		<div class="vertical_line">
+			<div class="circle_bottom"></div>
+		</div>
+		<div class="info_vertical animated">
+			<h1>Our <span>Technology</span> Stack</h1>
+			<p class="lead"></p>
+		</div>
+	</div>
+
+	<section class="content_info">
+		<!-- Info Resalt-->
+		<div class="paddings">
+			<div class="container wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+				<div class="row">
+
+					<app-service-item [ServiceItem]="DotnetServiceItem"></app-service-item>
+					<app-service-item [ServiceItem]="AzureServiceItem"></app-service-item>
+					<app-service-item [ServiceItem]="AngularServiceItem"></app-service-item>
+					<app-service-item [ServiceItem]="KubernetesServiceItem"></app-service-item>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Info Resalt-->
+	</section>
+
+
+
+	<app-footer></app-footer>
+</div>
+<!-- End layout-->
